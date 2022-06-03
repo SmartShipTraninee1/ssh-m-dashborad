@@ -1,12 +1,12 @@
-import Siderbar from './Layout/Dashborad/Sidebar'
 import './App.css'
+import Dashboard from './Layout/Dashboard/Dashboard';
 
 function App() {
 
 
   return (
     <div>
-      <Siderbar />
+      <Dashboard />
     </div>
   );
 }

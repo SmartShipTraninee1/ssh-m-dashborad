@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className="w-full h-screen bg-secondary">
+    <div className="w-full bg-secondary" style={{height:"90.5%"}}>
       <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table class="w-full text-sm text-left text-gray-500  ">
           <thead class="text-xs text-gray-700 uppercase bg-secondary-light dark:bg-gray-700 dark:text-gray-400">

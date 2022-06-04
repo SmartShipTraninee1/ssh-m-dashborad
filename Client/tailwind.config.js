@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary": "hsl(240deg 61% 10%)",
-        "secondary": "hsl(240deg 80% 98%)",
+        primary: "hsl(240deg 61% 10%)",
+        secondary: "hsl(240deg 80% 98%)",
         "secondary-light": "hsl(240deg 80% 96%)",
         "secondary-dark": "hsl(240deg 80% 92%)",
+        "light-white": "rgba(255,255,255,0.17)",
       },
     },
   },

@@ -7,7 +7,6 @@ import { UserRegister } from './Auth/UserRegister';
 
 function App() {
 
-
   return (
     <div>
       <Dashboard />

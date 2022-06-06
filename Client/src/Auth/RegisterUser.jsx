@@ -5,7 +5,7 @@ const Register = () => {
     return (
         <div className='bg-white w-full h-screen relative'>
          <div className='allpage h-screen w-full'>
-             <div className=' rounded rounded-2xl  w-9/12 h-5/12 mx-32 my-4 flex border-4 border-white  absolute'>
+             <div className='  rounded-2xl  w-9/12 h-5/12 mx-32 my-4 flex border-4 border-white  absolute'>
              <div className='w-2/5 h-9/12  rounded-r-3xl '>
                      <img src="../public/Images/smartship1.jpg" alt="photo" className='BackImg rounded-l-xl'></img>
                  </div>

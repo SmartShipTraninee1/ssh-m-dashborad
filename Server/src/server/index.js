@@ -5,12 +5,19 @@ const pool=require('../database/db')
 const port = 5000;
 app.use(cors());
 app.use(express.json());
-const CreateDb =require('../database/createdb')
+const CreateDb =require('../database/createdb');
+const Createtable = require('../database/models/createTable');
 
 
 
 
-CreateDb()
+CreateDb();
+
+
+Createtable();
+
+
+
 
 app.get('/', (req, res) => {
   res.send('Hello World!')

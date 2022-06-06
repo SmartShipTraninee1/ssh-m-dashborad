@@ -8,14 +8,14 @@ const Login = () => {
 
 
     return (
-     <div className='bg-white-900 w-screen h-screen relative  h-screen'>
+     <div className='bg-secondary-dark w-screen h-screen relative  h-screen'>
    <div className='allpage w-full h-screen '>
          
          <div className=' rounded rounded-3xl   w-9/12 h-3/5 m-32 flex border-4 border-white  absolute'>
          <div className='w-2/5 h-9/12 bg-sky-900 rounded-l-3xl bg-sky-900'>
                  <img src="../public/Images/smartship1.jpg" alt="logo" className='BackImg rounded-l-xl'></img>
              </div>
-            <div className=' w-3/5 bg-sky-900 rounded-r-3xl'> 
+            <div className=' w-3/5 bg-primary rounded-r-3xl'> 
               <div className='py-12 px-16 '>
               <div><h3 className='text-xl text-white py-2    font-bold'>Welcome To SmartShipHub</h3></div>
               

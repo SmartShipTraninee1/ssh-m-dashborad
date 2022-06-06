@@ -3,7 +3,7 @@ const Pool=require('pg').Pool;
 const pool=new Pool({
     user:'postgres',
     password:'postgres',
-    // database:'ssh_m_dashboard',
+      database:'ssh_m_dashboard',
     host:'localhost',
     port:5432
 });

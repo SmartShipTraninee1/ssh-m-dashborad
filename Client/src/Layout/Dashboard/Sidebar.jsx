@@ -20,7 +20,7 @@ function Sidebar() {
      
   return (
     <>
-      <div className="flex">
+      <div className="flex ">
         <div
           className={` ${
             open ? "w-72" : "w-20"
@@ -35,16 +35,16 @@ function Sidebar() {
           <div className="flex gap-x-8 items-center">
             <img
               src={logo}
-              className={`cursor-pointer duration-500 ${
-                open && "rotate-[360deg]"
+              className={`cursor-pointer duration-500 w-8 ${
+                open && "rotate-[360deg] w-8 "
               }`}
             />
             <h3
-              className={`text-white origin-left font-medium text-xl duration-200 ${
+              className={`text-white origin-left  font-medium text-xl duration-200 ${
                 !open && "scale-0"
               }`}
             >
-              SmartShip
+              SmartShipHub
             </h3>
           </div>
 
@@ -93,7 +93,6 @@ function Sidebar() {
               </span>
             </li>
           </ul>
-          
         </div>
       </div>
     </>

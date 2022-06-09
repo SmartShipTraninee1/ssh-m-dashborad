@@ -10,6 +10,10 @@ module.exports = {
         "secondary-dark": "hsl(240deg 80% 92%)",
         "light-white": "rgba(255,255,255,0.17)",
       },
+      fontFamily: {
+        "space-mono": ["Space Mono", "monospace"],
+        nunito: ["Nunito",' sans - serif'],
+      },
     },
   },
   plugins: [],

@@ -12,8 +12,7 @@ function App() {
       <Dashboard />
       {/* <Login/> */}
       {/* <Register/> */}
-      <UserLogin/>
-      <UserRegister/>
+      {/* <UserLogin/> */}
     </div>
   );
 }

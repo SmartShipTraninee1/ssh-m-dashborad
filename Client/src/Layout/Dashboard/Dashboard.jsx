@@ -1,15 +1,17 @@
 import React from 'react'
+import Footer from './Footer';
 import Header from './Header'
 import Home from './Home';
 import Sidebar from './Sidebar'
 
 function Dashboard() {
   return (
-    <div className="flex">
+    <div className="flex bg-secondary">
       <Sidebar />
-      <div className='w-full'>
+      <div className="w-full">
         <Header />
-        <Home/>
+        <Home />
+        <Footer />
       </div>
     </div>
   );

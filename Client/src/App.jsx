@@ -9,6 +9,7 @@ import{BrowserRouter,Route,Routes} from 'react-router-dom'
 function App() {
 
   return (
+<<<<<<< HEAD
   
     
     
@@ -22,6 +23,14 @@ function App() {
     </Routes>
     </BrowserRouter>
     
+=======
+    <div>
+      <Dashboard />
+      {/* <Login/> */}
+      {/* <Register/> */}
+      {/* <UserLogin/> */}
+    </div>
+>>>>>>> 18031eac34504a1229883cf9a3a94529b6ae1a83
   );
 }
 
